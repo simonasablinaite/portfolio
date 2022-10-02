@@ -1,0 +1,79 @@
+body {
+   width: 100%;
+}
+
+.fixed-center {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-content: space-around;
+}
+
+header {
+   padding: 32px 0;
+   display: flex;
+   justify-content: space-between;
+   background-color: #3d2514;
+   background-size: cover;
+
+}
+
+.fixed-container {
+   max-width: 1430px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 250px;
+}
+
+.logo-container {
+   width: 300px;
+   height: 58px;
+}
+
+.molino-logo {
+   font-family: 'Montez', cursive;
+   font-weight: lighter;
+   font-size: 45px;
+   color: white;
+
+}
+
+.express-container {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-bottom: 26px;
+}
+
+
+.express-container div {
+   font-size: 18px;
+   font-weight: 700;
+   color: #3d2514;
+}
+
+.express-container div,
+.right-side nav a {
+   color: white;
+}
+
+.right-side nav a {
+   font-size: 18px;
+   font-weight: bolder;
+   margin: 0 27px;
+}
+
+.right-side nav a:hover {
+   color: #e2974e;
+   transition: 0.5s;
+}
+
+.right-side nav a:first-child {
+   margin-left: 0 px;
+}
+
+.right-side nav a:last-child {
+   margin-right: 0px;
+}
