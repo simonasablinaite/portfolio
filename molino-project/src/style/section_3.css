@@ -11,6 +11,12 @@ font-family: 'Montez', cursive;
    background-size: cover;
 }
 
+.third-container {
+   max-width: 1440px;
+   margin: auto;
+   margin-bottom: 65px;
+}
+
 .third-section {
    position: relative;
    justify-content: flex-end;
@@ -25,6 +31,7 @@ font-family: 'Montez', cursive;
    flex-wrap: wrap;
    flex-direction: column;
    align-items: flex-start;
+   margin-top: 60px;
 }
 
 
@@ -39,7 +46,7 @@ font-family: 'Montez', cursive;
 .text-elements h2 {
    font-family: 'El Messiri', sans-serif;
    font-size: 30px;
-   margin-top: 30px;
+   margin: 30px 0 0 30px;
 }
 
 .text-elements h4 {
@@ -47,7 +54,7 @@ font-family: 'Montez', cursive;
    text-transform: uppercase;
    font-size: 12px;
    font-weight: bold;
-   margin: 10px 0 0 -109px;
+   margin: 10px 0 0 30px;
 }
 
 .text-elements p {
@@ -56,5 +63,9 @@ font-family: 'Montez', cursive;
    font-weight: 100;
    font-size: 12px;
    line-height: 25px;
-   margin: 25px 0 0 20px;
+   margin: 30px 0 0 30px;
+}
+
+.stars-rate {
+   margin: 30px 0 0 30px;
 }
