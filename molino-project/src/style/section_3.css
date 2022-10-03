@@ -6,6 +6,9 @@ font-family: 'Montez', cursive;
 
 .changing-container_3 {
    background-image: url(https://a-cloud.b-cdn.net/media/iW=5000&iH=any/a9bfe42751e8b5f5d8e2583f95e16ccd.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 .third-section {
