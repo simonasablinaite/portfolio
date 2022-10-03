@@ -5,6 +5,8 @@ font-family: 'Montez', cursive;
 */
 
 .changing-container_3 {
+   width: 100%;
+   height: 600px;
    background-image: url(https://a-cloud.b-cdn.net/media/iW=5000&iH=any/a9bfe42751e8b5f5d8e2583f95e16ccd.jpg);
    background-repeat: no-repeat;
    background-position: center;
@@ -22,7 +24,11 @@ font-family: 'Montez', cursive;
    justify-content: flex-end;
    max-width: 400px;
    max-height: 400px;
-   margin-top: 35px;
+   margin: 35px -6px 0 0;
+}
+
+.third-section-img {
+   width: 98%;
 }
 
 .third-section-elements {
@@ -31,7 +37,7 @@ font-family: 'Montez', cursive;
    flex-wrap: wrap;
    flex-direction: column;
    align-items: flex-start;
-   margin-top: 60px;
+   margin-top: 45px;
 }
 
 
@@ -74,4 +80,9 @@ font-family: 'Montez', cursive;
 .stars-rate span:hover {
    color: #b53430;
    transition: 0.2s;
+}
+
+.img-3 img {
+   max-width: 392px;
+
 }
