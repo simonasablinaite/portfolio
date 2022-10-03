@@ -4,6 +4,10 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montez', cursive;
 */
 
+.changing-container_3 {
+   background-image: url(https://a-cloud.b-cdn.net/media/iW=5000&iH=any/a9bfe42751e8b5f5d8e2583f95e16ccd.jpg);
+}
+
 .third-section {
    position: relative;
    justify-content: flex-end;
@@ -19,7 +23,7 @@ font-family: 'Montez', cursive;
    flex-direction: column;
    align-items: flex-start;
 }
-}
+
 
 .text-elements {
    width: 80%;
